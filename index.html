@@ -4,8 +4,159 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>筋トレ タイマー</title>
+<!---
+  <ink rel="stylesheet" href="style.css">
+    -->
+  <style>
+    body {
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
 
-  <link rel="stylesheet" href="style.css">
+
+header {
+  background-color: #000;
+  border-bottom: 1px solid #074652;
+  padding: 1.2rem 1.5rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  color: #00D4FF; 
+  margin-bottom: 0.3rem;
+}
+
+header p {
+  font-size: 0.85rem;
+  color: #bdd0e5; 
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+
+.a12 {
+  background-color: #1A1A2E;
+  border: 1px solid #174257;
+  border-radius: 16px;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.timer-dsp {
+  font-size: 5.5rem;
+  font-weight: 800;
+  color: #00e5ff; 
+  letter-spacing: 4px;
+  margin: 0.75rem 0;
+}
+
+.timer123 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+  height: 900;
+}
+
+.b34 {
+  padding: 0.35rem 0.75rem;
+  border: 1px solid #00D4FF;
+  border-radius: 6px;
+  background: #252540;
+  color: #8A9BAE;
+  font-size: 0.78rem;
+  font-weight: 500;
+}
+
+.b34:hover {
+  border-color: #00D4FF;
+  color: #00D4FF;
+}
+
+.btn {
+  padding: 0.7rem 1.8rem;
+  border-radius: 8px;
+  border: none;
+  font-weight: 700;
+}
+
+.btn-st {
+  background-color: #00D4FF;
+  color: #0E0E1A;
+}
+
+.btn-st:hover {
+  background-color: #33DCFF;
+}
+
+.btn-rt {
+  background-color: transparent;
+  border: 1px solid #00D4FF;
+  color: #8A9BAE;
+}
+
+.btn-rt:hover {
+  border-color: #00D4FF;
+  color: #00D4FF;
+}
+
+
+.power {
+  width: 400;
+  margin: 0 auto 3rem;
+  padding: 0 1.5rem;
+}
+
+.power h2 {
+  font-size: 1rem;
+  color: #8A9BAE;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.power-123 {
+  display: grid;
+  gap: 1rem;
+}
+
+.power987 {
+  background-color: #1A1A2E;
+  border: 1px solid #00D4FF;
+  border-radius: 12px;
+  padding: 1.2rem;
+
+}
+
+.power987 h3 {
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.power987 p {
+  font-size: 0.82rem;
+  color: #8A9BAE;
+  margin: 0;
+}
+.small {
+  font-size: 0.72rem ;
+  margin-top: 0.3rem ;
+}
+
+  </style>
 </head>
 <body>
 
@@ -35,7 +186,7 @@
       </div>
     </section>
 
-  <section class="pawer">
+  <section class="power">
     <h2>インターバルの目安</h2>
     <div class="power-123">
 
